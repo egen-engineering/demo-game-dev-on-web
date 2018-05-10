@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin: 15px;
+}
+
+.App-body {
+  display: flex;
+  flex: 1 1;
+}
+
+.App-content {
+  flex: 1 1;
+  padding: 20px;
+  overflow: scroll;
+  background: gainsboro;
+}
+
+.App-content > canvas {
+  background: white;
+}
+
+.Nav {
+  width: 250px;
+  margin: 20px 0;
+  text-align: start;
+}
+
+.Nav > a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.Nav > .active {
+  background: #39abd1;
+}
+
+.Nav > a:visited {
+  color: black;
+}
